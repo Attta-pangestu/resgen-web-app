@@ -26,18 +26,18 @@ const Footer = () => {
 
                 <Stack direction={{ base: 'column', md: 'row' }} fontWeight={'medium'}>
                     <Text>&copy; 2024 Resumegen. Designed and build By</Text>
-                    <Text as={'a'} href={'https://www.linkedin.com/in/shrikant-kushwah-5bb1911b2/'} target={'_blank'} color={'blue.600'}>Shrikant Kushwah</Text>
+                    <Text as={'a'} href={'/'} target={'_blank'} color={'blue.600'}>Atha Rizki Pangestu</Text>
                 </Stack>
 
 
                 <Stack direction={'row'} spacing={6}>
-                    <IconButton isRound='true' as={'a'} href={'https://github.com/shrikant-kushwah/ResumeGenerator'} target='_blank' bg={'gray.300'}>
+                    <IconButton isRound='true' as={'a'} href={'https://github.com/Attta-pangestu/resgen-web-app'} target='_blank' bg={'gray.300'}>
                         <FaGithub />
                     </IconButton>
-                    <IconButton isRound='true' as={'a'} href={'https://www.linkedin.com/in/shrikant-kushwah-5bb1911b2/'} target='_blank' colorScheme={'blue'}>
+                    <IconButton isRound='true' as={'a'} href={'https://github.com/Attta-pangestu/resgen-web-app'} target='_blank' colorScheme={'blue'}>
                         <FaLinkedin />
                     </IconButton>
-                    <IconButton isRound='true' as={'a'} href={'https://twitter.com/kushwa_shrikant'} target='_blank' colorScheme={'blue'}>
+                    <IconButton isRound='true' as={'a'} href={'https://github.com/Attta-pangestu/resgen-web-app'} target='_blank' colorScheme={'blue'}>
                         <FaTwitter />
                     </IconButton>
 
