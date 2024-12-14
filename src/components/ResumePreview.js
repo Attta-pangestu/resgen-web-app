@@ -66,7 +66,7 @@ const ResumePreview = () => {
           >
             <HStack spacing={1}>
               <MdMail />{" "}
-              <Text>{about.email ? about.email : "jordandue@gmail.com"}</Text>
+              <Text>{about.email ? about.email : "atha@gmail.com"}</Text>
             </HStack>
             <HStack spacing={1}>
               <MdLocalPhone />{" "}
@@ -74,7 +74,7 @@ const ResumePreview = () => {
             </HStack>
             <HStack spacing={1}>
               <MdLocationPin />{" "}
-              <Text>{about.address ? about.address : "Jakarta, Indonesia"}</Text>
+              <Text>{about.address ? about.address : "Jakarta"}</Text>
             </HStack>
             <HStack spacing={1}>
               <RiLinkedinBoxFill />{" "}
